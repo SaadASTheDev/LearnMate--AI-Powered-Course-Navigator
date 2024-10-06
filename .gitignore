@@ -1,0 +1,52 @@
+# Git Ignore File for E-learning Recommendation System
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Node modules
+frontend/node_modules/
+
+# Logs
+logs/
+*.log
+
+# Databases
+data/*.sqlite3
+data/*.csv
+
+# Environment variables
+*.env
+
+# Docker
+*.env.docker
+**/Dockerfile
+**/docker-compose.yml
+
+# Machine Learning Models
+ml_models/*.pkl
+
+# Prometheus and Grafana
+prometheus/
+grafana/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Kubernetes config
+kubernetes/*.yaml
+
+# Generated files
+*.out
+*.bak
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
